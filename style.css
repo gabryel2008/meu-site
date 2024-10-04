@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+}
+body {
+    background-color:rgb(251, 222, 255);
+}
+nav {
+
+    background-color: rgb(59, 30, 94);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(251, 222, 255);
+}
+
+
+a{
+    color: rgb(251, 222, 255);
+    text-decoration: none;
+    transform: 0.9s;
+}
+a:hover{
+    opacity: 0.3;
+
+}
+ul{
+display:flex;
+list-style: none;
+gap: 30px;
+letter-spacing:1px;
+
+}
+
+.ar{
+    color: rgb(59, 30, 94);
+}
