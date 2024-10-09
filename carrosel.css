@@ -1,0 +1,30 @@
+.main{
+      border: 3px solid rgb(0, 0, 0);
+    width: 500px;
+    overflow: hidden;
+    background-color: black;
+    margin-left: 300px;
+}
+
+.principal{
+    gap: 3px;
+   display: flex;
+   animation: carro 5s infinite ease;
+}
+
+.principal img{
+    width:500px;
+}
+
+
+@keyframes carro{
+    0%{
+        margin-left: -506px;
+    }
+    50%{
+        margin-left: -1006px;
+    }
+    100%{
+        margin-left: -1506px;
+    }
+}

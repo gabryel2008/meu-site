@@ -1,14 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 35px;
+
 }
 body {
-    background-color:rgb(251, 222, 255);
+    background-color:rgba(221, 252, 255, 0.453);
+    font-family: Arial, sans-serif;
 }
 nav {
 
-    background-color: rgb(59, 30, 94);
+    background-color: rgb(40, 73, 149);
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -17,12 +18,13 @@ nav {
 .logo{
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(251, 222, 255);
+    color: rgb(13, 0, 71);
+    font-size: 50PX;
 }
 
 
 a{
-    color: rgb(251, 222, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transform: 0.9s;
 }
@@ -41,3 +43,100 @@ letter-spacing:1px;
 .ar{
     color: rgb(59, 30, 94);
 }
+
+
+
+
+.carrossel {
+    overflow: hidden;
+    width: 700px; /* Largura do carrossel */
+    margin: 100px;
+    border: 1px solid #ddd;
+
+}
+
+.carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.item {
+    min-width: 400px; /* Largura de cada item */
+    text-align: center;
+    padding: 150px;
+    background-color: #ff0000;
+    border-right: 1px solid #ffffff;
+
+}
+.ab{
+
+    width: 900px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+
+
+
+
+
+
+}
+@import url(reset.css);
+
+.cg{
+    padding: 10px;
+}
+
+.produtos-lista{
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:24px;
+}
+.produtos-lista .produto{
+    border: 1px solid black;
+
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 4px;
+    gap: 18px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding:10px;
+    width: 400px;
+    box-shadow: 0px 0px 12px 4px rgb(0, 0, 0,0.6);
+    background-color: #ffffff;
+    transition: 0.4s;
+}
+
+.produtos-lista .produto:hover{
+    background-color: rgb(145, 145, 145);
+    transform: scale(1.03);
+    cursor:progress;
+}
+
+
+.produtos-lista .produto img{
+    width: 400px;
+}
+
+
+
+
+body{
+    height: 100vh;
+    background-image:url('asse/depositphotos_322069858-stock-photo-passengers-commercial-airplane-flying-above.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+    
+
+}
+
+
